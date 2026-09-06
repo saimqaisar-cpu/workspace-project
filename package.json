@@ -6,7 +6,7 @@
     "build": "npm --prefix ./workspace-manager run build",
     "start": "npm --prefix ./workspace-manager run start",
     "lint": "npm --prefix ./workspace-manager run lint",
-    "postinstall": "prisma skills sync || exit 0"
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@prisma/client": "5.10.0"
