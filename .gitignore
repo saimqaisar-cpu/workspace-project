@@ -13,3 +13,4 @@ npm-debug.log*
 
 # Keep repo metadata but avoid committing secrets
 # .env.*
+.vercel
