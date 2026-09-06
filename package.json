@@ -1,0 +1,17 @@
+{
+  "name": "workspace-root",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix ./workspace-manager run dev",
+    "build": "npm --prefix ./workspace-manager run build",
+    "start": "npm --prefix ./workspace-manager run start",
+    "lint": "npm --prefix ./workspace-manager run lint",
+    "postinstall": "prisma skills sync || exit 0"
+  },
+  "dependencies": {
+    "@prisma/client": "5.10.0"
+  },
+  "devDependencies": {
+    "prisma": "5.10.0"
+  }
+}
