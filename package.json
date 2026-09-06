@@ -5,8 +5,7 @@
     "dev": "npm --prefix ./workspace-manager run dev",
     "build": "npm --prefix ./workspace-manager run build",
     "start": "npm --prefix ./workspace-manager run start",
-    "lint": "npm --prefix ./workspace-manager run lint",
-    "postinstall": "prisma generate"
+    "lint": "npm --prefix ./workspace-manager run lint"
   },
   "dependencies": {
     "@prisma/client": "5.10.0"
